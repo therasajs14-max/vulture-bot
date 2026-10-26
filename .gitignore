@@ -1,0 +1,54 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.env
+backend/.env
+frontend/.env
+frontend/.env.*
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+backend/venv/
+backend/env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+frontend/build/
+.next/
+frontend/.next/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Databases & User Uploads
+*.db
+*.sqlite
+*.sqlite3
+vulture_bot.db
+backend/vulture_bot.db
+uploads/
+backend/uploads/
+!uploads/.gitkeep
+!backend/uploads/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
